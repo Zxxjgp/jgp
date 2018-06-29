@@ -1,0 +1,100 @@
+.topBar textarea {
+    width: 998px;
+    height: 200px;
+    overflow:scroll; 
+}
+.bt{
+    margin-left:900px;
+    width: 100px;
+    height: 30px;
+}
+.c{
+    width: 100%;
+    height: 100%;
+     display: inline-block;
+    padding: .3em .5em;
+    background-image: linear-gradient(#ddd, #bbb);
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:black;
+    font-weight: bold;
+}
+.bottomBar textarea{
+    width: 998px;
+    height: 200px;
+    border:1px solid green;    /*边框*/
+    text-align: center;        /*文字水平居中对齐*/
+    line-height: 22px;        /*设置文字行距等于div的高度*/
+    background-color: #b3b3b3;
+    overflow:scroll; 
+
+}
+.bodys{
+    position: fixed;
+    left: 20%;
+    right: 50%;
+}
+.header {
+    height: 100px;
+    background: url("../image/logo-b.png") no-repeat 5% center teal;
+    background-size: 300px 4.5em;
+    text-transform: lowercase;
+}
+.logo {
+    float: right;
+    padding-right: 42% ;
+
+}
+.logo h1 {
+    margin-top: 12%;
+    font-family: "STHupo",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu ;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+.body {
+    background: url("../image/timg.jpg") no-repeat ;
+    background-size: cover;
+}
+.endfoot{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin:0 auto;
+    bottom: 0;
+    text-align:center;
+/*    width:100%;
+    height:30px;
+    margin:1 auto;
+    position:fixed;
+    bottom:0;
+    text-align:center;*/
+}
+.ft-nav { 
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 100px 
+}
+.bq{
+    font-family:"微软雅黑";
+    font-size: 12px;
+    text-align:center;
+}.nav{
+   text-decoration: none; 
+   font-family:"微软雅黑";
+   font-size:16px;
+   color: black;
+}.title{
+    text-decoration: none; 
+   font-family:"_GB2312：KaiTi_GB2312";
+   font-size:20px;
+   color: black;
+}.tu{
+    width: 22px;
+    height: 22px;
+}
